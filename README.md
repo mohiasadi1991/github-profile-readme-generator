@@ -3,7 +3,7 @@ from pathlib import Path
 def generate_readme():
     print("=== GitHub Profile README Generator ===")
 
-    name = input("Your name: ").strip()
+    name = input("Your name: ").stri()
     bio = input("Short bio: ").strip()
     skills = input("Your skills (Python, HTML, etc.): ").strip()
     projects = input("Your favorite projects: ").strip()
